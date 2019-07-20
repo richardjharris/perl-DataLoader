@@ -1,0 +1,5 @@
+input: lib/DataLoader.pm
+output: README.md
+inline: NAME
+header: |
+  ## perl-DataLoader [![Build Status](https://travis-ci.org/richardjharris/perl-DataLoader.svg?branch=master)](https://travis-ci.org/richardjharris/perl-DataLoader) [![Coverage Status](https://coveralls.io/repos/github/richardjharris/perl-DataLoader/badge.svg?branch=master)](https://coveralls.io/github/richardjharris/perl-DataLoader?branch=master)
