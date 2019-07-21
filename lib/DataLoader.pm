@@ -151,6 +151,19 @@ afterwards, e.g.
     die $error;   # or whatever
  });
 
+=head2 Using outside of GraphQL
+
+L<DataLoader> assumes the use of L<Mojolicious>, specifically its promise implementation
+L<Mojo::Promise>. The L<Mojo::Reactor::EV> backend is recommended (and is automatically
+used provided you have L<EV> installed) for optimal batching, although other backends will
+also work.
+
+With the EV backend, DataLoader will work fine with any L<AnyEvent>-based code. See the
+unit tests of this module for examples.
+
+It would be possible to write a version of DataLoader that depends only on AnyEvent/EV
+and does not depend on Mojolicious. Let me know if there is interest.
+
 =head1 METHODS
 
 =over
