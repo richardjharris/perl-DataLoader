@@ -14,4 +14,9 @@ t/errors.t
 t/job-queue-ordering.t
 t/lib/DataLoader/Test.pm
 t/options.t
+t/poll-backend.t
 t/test-libs.t
+xt/criticrc
+xt/pod-coverage.t
+xt/pod.t
+xt/zz-critic.t
