@@ -308,6 +308,8 @@ Loads a key, returning a L<Mojo::Promise> for the value represented by that key.
 
 =cut
 
+# False-positive on Perl::Critic < 1.119 due to @_ size tests
+## no critic (RequireArgUnpacking)
 sub load {
     my ($self, $key) = @_;
 
