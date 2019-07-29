@@ -202,7 +202,7 @@ use Scalar::Util qw(blessed);
 
 use DataLoader::Error;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =item new ( batch_load_function, %options )
 
